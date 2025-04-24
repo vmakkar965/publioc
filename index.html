@@ -12,38 +12,54 @@
       background-color: #f9f9f9;
       color: #333;
     }
+
     header {
-      background-color: #004080;
+      background: linear-gradient(rgba(0, 64, 128, 0.8), rgba(0, 64, 128, 0.8)), url('https://images.unsplash.com/photo-1581091870620-3c2b4e7c7c5f') no-repeat center center/cover;
       color: white;
-      padding: 60px 20px;
+      padding: 100px 20px;
       text-align: center;
     }
+
     header h1 {
       margin: 0;
-      font-size: 2.5rem;
+      font-size: 3rem;
     }
+
     header p {
       margin: 10px 0 0;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
+      font-weight: 300;
     }
+
     section {
       padding: 40px 20px;
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
     }
+
     h2 {
       color: #004080;
     }
+
     .features, .steps {
       display: flex;
       flex-direction: column;
       gap: 10px;
     }
+
+    iframe {
+      width: 100%;
+      border: none;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+
     .footer {
       text-align: center;
       padding: 20px;
       background-color: #eee;
     }
+
     a.button {
       display: inline-block;
       margin-top: 20px;
@@ -59,36 +75,48 @@
 
 <header>
   <h1>Lecture Summarizer</h1>
-  <p>Summarize your lectures in seconds. Focus on learning, not note-taking.</p>
+  <p>This is an AI-powered lecture summarizing app – built to help you save time and focus on what matters.</p>
 </header>
 
 <section>
   <h2>About the App</h2>
-  <p>Lecture Summarizer is an intelligent tool designed to help students and professionals capture the essence of lectures quickly. With cutting-edge AI summarization, you get concise notes instantly—no more scribbling or missed points.</p>
+  <p>Lecture Summarizer is a powerful AI tool that turns long, detailed lectures into quick, easy-to-read summaries. Whether you're a student, educator, or lifelong learner, this tool helps you keep track of key ideas without the hassle of note-taking.</p>
 </section>
 
 <section>
   <h2>Key Features</h2>
   <div class="features">
-    <div>- Upload audio or video of your lecture</div>
-    <div>- Instant AI-powered summaries</div>
-    <div>- Clean, readable formats (bullets, paragraphs, etc.)</div>
-    <div>- Works on desktop and mobile</div>
+    <div>✔️ Upload your lecture audio or video</div>
+    <div>✔️ AI generates concise summaries</div>
+    <div>✔️ Organized output: bullets, paragraphs, highlights</div>
+    <div>✔️ Access on phone or laptop</div>
   </div>
 </section>
 
 <section>
   <h2>How It Works</h2>
   <div class="steps">
-    <div>1. Upload your lecture audio or video file</div>
-    <div>2. The app transcribes and summarizes the content</div>
-    <div>3. You download or copy the summarized notes</div>
+    <div>1. Upload a recording or transcript of your lecture</div>
+    <div>2. Our AI analyzes and summarizes the content</div>
+    <div>3. You receive a clean, structured summary</div>
   </div>
 </section>
 
+<section>
+  <h2>Demo Video</h2>
+  <p>Watch how the app works in this short video walkthrough:</p>
+  <iframe src="https://drive.google.com/file/d/1Yk1xtFfP-VR4y7YVXKDBL9bmA936NCoT/preview" width="100%" height="480" allow="autoplay"></iframe>
+</section>
+
+<section>
+  <h2>Feedback Survey</h2>
+  <p>If you've used the app or watched the demo, please take a moment to complete our quick feedback survey:</p>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSde0F56Ah1V7C3lh_ADJRpMNmaDE2iqqCvcPbRe6Sr0Izz2iw/viewform?embedded=true" width="100%" height="700">Loading…</iframe>
+</section>
+
 <section class="footer">
-  <p>Questions? Reach out at <a href="mailto:your@email.com">your@email.com</a></p>
-  <a href="#" class="button">Try It Now</a>
+  <p>Questions or feedback? Contact us at <a href="mailto:makkarvedant@gmail.com">makkarvedant@gmail.com</a></p>
+  <a href="#" class="button">Try the App</a>
 </section>
 
 </body>
